@@ -48,6 +48,7 @@ h3{
          display: flex;
          justify-content: space-evenly;
 }
+
 .servicios{
     width: 400px;
     height: 400px;
@@ -85,9 +86,17 @@ h3{
 }  
 
 .hero-imagen{
+    width: 100%;
+
+}
+.imagen-hero {
     background-image: url(./imagenes/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+}
+.imagen-hero2{
+    width: 50%;
 }
 
 .hero p{
@@ -141,6 +150,12 @@ h3{
     justify-content: space-evenly;
     align-items: center;
 
+}
+.parrafo{
+    padding: 16px;
+    text-align: center;
+    font-size: 32px;
+    margin: 32px;
 }
 
 
