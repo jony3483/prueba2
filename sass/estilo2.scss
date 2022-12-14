@@ -1,0 +1,21 @@
+
+.menu-navegacion{
+    background-color: rgb(9, 122, 156);
+    padding: 0;
+    list-style-type: none;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .menu-navegacion li{
+        display: inline-block;
+        text-align: center;
+        .menu-navegacion li a:hover{
+            color: brown;
+            background-color: rgb(250, 216, 66);
+            border-radius: 50%;
+        }
+    }
+}
+
