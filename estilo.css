@@ -84,15 +84,46 @@ h3{
 .tipo-servicios p{
     text-align: center;
 }
-.icono{
-    height:15rem ;
-    width: 15rem;
+.icono1{
+    height:10rem;
+    width: 10rem;
 }
-.icono{
-    background-image: url(./imagenes/images\ \(2\).jfif);
+.fotoicono1{
+    height: 10rem;
+    width: 20rem;
+}
+
+.icono1{
+    background-image: url(./imagenes/Form-1.jpg);
+    background-repeat: no-repeat;
+    transition: all 2s ease;
+    text-align: center;
+}
+.icono2{
+    height:10rem;
+    width: 10rem;
+}
+.fotoicono2{
+    height: 10rem;
+    width: 20rem;
+}
+
+.icono2{
+    background-image: url(./imagenes/casa-lujo1.jpg);
     background-repeat: no-repeat;
     transition: all 2s ease;
 }
+.icono3{
+    height:10rem;
+    width: 10rem;
+}
+.icono3{
+    background-image: url(./imagenes/listo.jfif);
+    background-repeat: no-repeat;
+    transition: all 2s ease;
+}
+
+
 .tipo-servicios:hover{
     transform: scale(1.2, 1.2);
 }
@@ -113,6 +144,7 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 400px;
 }
 .imagen-hero2{
     width: 50%;
@@ -135,7 +167,7 @@ h3{
 .boton:hover{
     cursor: pointer;
 }
-.w-100{
+.botonw-100{
     width: 100%;
 }
 .flex {
@@ -159,11 +191,11 @@ h3{
 }
 
 
-.contacto{
-    width: 400px;
-    height: 400px;
-    padding: 1rem;
-    margin: 1rem; 
+.fcontacto{
+    width: 500px;
+    height: 200px;
+    padding: 36px;
+    margin: 36px; 
     
 }
 .futercontacto{

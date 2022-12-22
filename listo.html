@@ -6,34 +6,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./imagenes/favicon.ico">
+    <title>listo</title>
 </head>
 <body>
   <header>
-    <!--menu navegacion-->
-   <nav>
-       <ul class="menu-navegacion">
-        <li> <a href="index.html">home</a></li>
-          <li> <a href="nosotros.html"> Nosotros</a></li>
-          <li> <a href="ofrecer.html"> Tecnologias</a></li>
-          <li> <a href="registratupropiedad.html">registra tu propiedad</a></li>
-          <li> <a href="comparayelije.html">compara y elije</a></li>
-          <li> <a href="listo.html">listo</a></li>
-          <li> <a href="contacto.html"> Contacto</a></li>
-       </ul>  
-    </nav>        
+    <!--menu bostrap-->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contacto.html">contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="registratupropiedad.html">registra tu propiedad</a></li>
+                <li><a class="dropdown-item" href="comparayelije.html">compara y elije</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="listo.html">listo</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="que necesitas" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   
 </header>
-    <h1>listo</h1>
+<br><br><br>
+    <h1>Averigua tu capacidad de inversión</h1>
 
     <div>
-        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae doloremque eligendi numquam quod ducimus, a ex praesentium. Eaque quis accusantium deserunt similique amet earum error ad molestias deleniti dolores?</p>
-        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, dolor magni laboriosam nulla eum ducimus excepturi eveniet quidem, porro laborum vel obcaecati! Veritatis ratione praesentium deleniti odio fugiat saepe ipsum.
-        Animi ratione dolorum quam sit ea. Tenetur obcaecati nisi eveniet ratione ullam ex deleniti fuga ad necessitatibus asperiores ipsam, inventore velit. Nostrum quae explicabo animi ducimus harum quidem mollitia itaque.
-        Deserunt nemo asperiores, optio quidem non quasi velit modi culpa voluptatem ipsa cumque inventore voluptatibus harum tempore illo commodi expedita. Veritatis dicta earum pariatur suscipit reiciendis ut fugit, deleniti eligendi!</p>
-        <img src="./images (2).jfif" alt="">
-       
+        <p class="parrafo">Descubre hasta qué monto puedes invertir acorde a tu situación financiera y para qué propiedades te alcanza.
+
+          Evalúate en línea para estimar el crédito hipotecario que puedes conseguir con los bancos, y saber si con eso puedes invertir en departamentos y otros activos inmobiliarios como terrenos, bodegas y estacionamientos.</p>
+               
     </div>
+    <br><br>
 
     <section>
         <form class="formulario">
@@ -65,6 +93,7 @@
             </fieldset>
         </form>
       </section>
+      <br><br><br>
       <footer>
         <main class="futer">
          <section class="contacto" >
@@ -97,6 +126,10 @@
          </section>
        </main>
        </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
